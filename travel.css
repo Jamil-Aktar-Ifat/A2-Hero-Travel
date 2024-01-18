@@ -128,6 +128,86 @@ body{
 
 
 
+/* choose your destination text styles */
+.choose-your-destination-text{
+    margin-top: 100px;
+}
+.choose-your-destination-text h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.choose-your-destination-text p{
+    width: 640px;
+    text-align: center;
+    padding-left: 400px;
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+}
+.our-popular-tours-img-container-1{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.img-maldives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    width: 570px;
+    height: 300px;
+    background-image: url('./images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+
+}
+.primary-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.img-indonesia{
+    width: 570px;
+    height: 300px;
+    background-image: url('./images/Rectangle\ 8.png');
+    background-repeat: no-repeat;
+}
+
+.our-popular-tours-img-container-2{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+.img-srilanka{
+    width: 374px;
+    height: 286px;
+    background-image: url('./images/Rectangle\ 6.png');
+    background-repeat: no-repeat;
+}
+.img-north{
+    width: 474px;
+    height: 286px;
+    background-image: url('./images/Rectangle\ 7.png');
+    background-repeat: no-repeat;
+}
+.img-kashmir{
+    width: 274px;
+    height: 286px;
+    background-image: url('./images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+}
+..our-popular-tours-img-container-2{ {
+    
+}
+
 
 
 
