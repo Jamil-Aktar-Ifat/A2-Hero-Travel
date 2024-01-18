@@ -1,0 +1,191 @@
+/* mulish font imported */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    font-family: "Mulish", sans-serif;
+}
+body{
+    margin: 0px;
+}
+
+
+/* header section styles */
+.navigatiion{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-title{
+    /* border: 1px solid tomato; */
+    display: flex;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-toolber{
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;   
+}
+
+.nav-toolber a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #424247;
+}
+.header{
+    margin-left: 125px;
+    margin-right: 125px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFF;
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) ,url('./images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+}
+.header-options h2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+}
+.header-options p{
+    margin-left: 290px;
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    width: 600px;
+    height: 52px;
+}
+.header-options div{
+    gap: 20px;
+    margin-left: 185px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 850px;
+    height: 84px;
+    background: rgba(255, 255, 255, 0.30); 
+}
+.primary-buttons, .header-buttons-1{
+    padding-left: 15px;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+.header-buttons-1{
+    background-color: #006FCF;
+    border: 0px;
+    color: #FFF;
+    padding: 0px;
+    width: 174px;
+    height: 58px;
+}
+
+/* our-popular-tours styles */
+
+.our-popular-tours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1180px;
+    margin-left: 120px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.our-popular-tours-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.our-popular-tours-text{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+
+
+
+
+
+/* styles for max width 600px device */
+@media screen and (max-width: 600px){
+
+    .header{
+        /* flex-direction: column; */
+        margin-top: 40px;
+        margin-left: 110px;
+        width: 350px;
+        height: 500px;
+        background-position: center;
+    }
+    .navigatiion{
+        flex-direction: column;
+    } 
+  
+    .header-options h2{
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .header-options p{
+        margin-top: 5px;
+        margin-left: 25px;
+        text-align: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 400;
+        width: 304px;
+        height: 65px;
+    }
+    .header-options div{
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 10px;
+        flex-direction: column;
+        width: 270px;
+        height: 300px;
+    }
+    .header-buttons-1{
+        width: 193px;
+        height: 56px;
+    }
+    .our-popular-tours{
+        flex-direction: column;
+        width: 370px;
+        margin-top: 20px;
+        gap: 50px;
+    }
+    .our-popular-tours-text-1{
+        margin-left: 50px;       
+    }
+    .our-popular-tours-text{
+        width: 335px;     
+    }
+}
