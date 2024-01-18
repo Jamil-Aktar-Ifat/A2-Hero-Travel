@@ -16,7 +16,11 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-
+.nav-title img{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
 .nav-title{
     /* border: 1px solid tomato; */
     display: flex;
@@ -204,8 +208,25 @@ body{
     background-image: url('./images/Rectangle\ 9.png');
     background-repeat: no-repeat;
 }
-..our-popular-tours-img-container-2{ {
-    
+.our-popular-tours-img-container-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+.img-bangladesh{
+    width: 473px;
+    height: 300px;
+    background-image: url('./images/Rectangle\ 11.png');
+    background-repeat: no-repeat;
+}
+.img-bandarban {
+    width: 673px; 
+    height: 300px;
+    background-image: url('./images/Rectangle\ 10.png');
+    background-repeat: no-repeat;
 }
 
 
