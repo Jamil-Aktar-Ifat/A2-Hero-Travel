@@ -285,6 +285,73 @@ body{
 }
 
 
+/* deals and discount section style */
+.deals-discount h2{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.deals-discount .test p{
+    margin-top: 20px;
+    color: rgba(19, 19, 24, 0.70);
+    width: 643px;
+    text-align: center;
+    font-weight: 400;
+}
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box, .box-middle{
+    width: 1170px;
+    height: 500px;
+    margin-left:125px ;
+    margin-right: 125px;
+    margin-bottom: 50px;
+    border-radius: 16px;
+    background-image: url('./images/Group\ 39.png');
+}
+.box-middle{
+    background-image: url('./images/Group\ 40.png');
+}
+.primary-container, .primary-container-middle{
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    border-radius: 16px;
+    width: 450px;
+    height: 250px;
+    position: relative;
+    top: 70px;
+    left: 550px;
+    padding: 50px;
+}
+.primary-container-middle{
+    left: 70px;
+}
+.boxes{
+    display: flex;
+}
+.box-one-1, .box-one-2, .box-one-3{
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* styles for max width 600px device */
 @media screen and (max-width: 600px){
