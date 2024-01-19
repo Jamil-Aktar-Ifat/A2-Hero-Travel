@@ -322,6 +322,7 @@ body{
 .primary-container, .primary-container-middle{
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
+    border: 1px solid #FFF;
     border-radius: 16px;
     width: 450px;
     height: 250px;
