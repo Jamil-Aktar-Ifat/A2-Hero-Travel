@@ -309,6 +309,7 @@ body{
 .box, .box-middle{
     width: 1170px;
     height: 500px;
+    border: 1px solid #FFF;
     margin-left:125px ;
     margin-right: 125px;
     margin-bottom: 50px;
