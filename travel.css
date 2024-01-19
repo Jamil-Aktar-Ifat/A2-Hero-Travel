@@ -286,6 +286,7 @@ body{
 
 
 /* deals and discount section style */
+
 .deals-discount h2{
     color: #131318;
     text-align: center;
@@ -308,16 +309,18 @@ body{
 
 .box, .box-middle{
     width: 1170px;
-    height: 500px;
+    height: 540px;
     border: 1px solid #FFF;
     margin-left:125px ;
     margin-right: 125px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     border-radius: 16px;
     background-image: url('./images/Group\ 39.png');
+    background-repeat: no-repeat;
 }
 .box-middle{
     background-image: url('./images/Group\ 40.png');
+    background-repeat:no-repeat;
 }
 .primary-container, .primary-container-middle{
     background: rgba(255, 255, 255, 0.80);
@@ -325,7 +328,7 @@ body{
     border: 1px solid #FFF;
     border-radius: 16px;
     width: 450px;
-    height: 250px;
+    height: 270px;
     position: relative;
     top: 70px;
     left: 550px;
@@ -517,9 +520,57 @@ body{
 }
 
 
+/* footer section styles */
+footer{
+    width: 1440px;
+    height: 502px;
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    display: grid;
+    justify-content: center;
+    align-items: center;
 
-
-
+}
+.footer-header{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
+footer p{
+    width: 760px;
+    color: #5A5A5D;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+footer hr{
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.icons{
+    width: 120px;
+    height: 24px;
+    /* border: 2px solid tomato; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 320px;
+    margin-top: 0px;
+}
+ /* p{
+    border: 2px solid black;
+    width: 175px;
+    height: 24px;
+} */
 
 
 /* styles for max width 600px device */
