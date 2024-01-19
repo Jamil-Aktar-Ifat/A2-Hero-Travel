@@ -630,4 +630,52 @@ footer hr{
     .our-popular-tours-text{
         width: 335px;     
     }
+
+    /* our popular destinations */
+    .choose-your-destination-text p,
+    .why-chose-us-heading p{
+        width: 390px;
+        padding-left: 100px;
+    }
+    .our-popular-tours-img-container-1, .our-popular-tours-img-container-2,
+    .our-popular-tours-img-container-3{   
+        flex-direction: column;
+    }
+    .img-srilanka,
+    .img-north,
+    .img-kashmir,
+    .img-bangladesh,
+    .img-bandarban{
+        background-size: 570px 300px;
+        width: 570px;
+        height: 300px;
+    }
+
+    /* why choose us section */
+    .why-chose-us-body-1,
+    .why-chose-us-body-2{
+        flex-direction: column;
+        padding-left: 20px;
+        
+    }
+    .why-chose-us-body-1 .box-1{
+        width: 500px;
+        padding: 50px;
+    }
+    .why-chose-us-body-1 .box-2{
+        width: 500px;
+        padding: 50px;
+    }
+    .why-chose-us-body-2 .box-3{
+        width: 500px;
+        padding: 50px;
+    }
+    /* deals and discount section style */
+    .box, .box-middle{
+        flex-direction: column;
+        width: 570px;
+        height: 700px;
+        /* background-size: ; */
+    }
+
 }
