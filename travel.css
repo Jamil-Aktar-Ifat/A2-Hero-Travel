@@ -343,6 +343,7 @@ body{
 .box-one-1, .box-one-2, .box-one-3{
     width: 140px;
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 5px;
 }
@@ -491,6 +492,7 @@ body{
     margin-left: 00px;
     border-radius: 16px;
     background-image: url('./images/Rectangle\ 8\ \(1\).png');
+    background-repeat: no-repeat;
 }
 .box-II-small{
     width: 324px;
@@ -655,27 +657,85 @@ footer hr{
     .why-chose-us-body-1,
     .why-chose-us-body-2{
         flex-direction: column;
-        padding-left: 20px;
+        padding-left: 15px;
         
     }
     .why-chose-us-body-1 .box-1{
-        width: 500px;
+        width: 470px;
         padding: 50px;
     }
     .why-chose-us-body-1 .box-2{
-        width: 500px;
+        width: 470px;
         padding: 50px;
     }
     .why-chose-us-body-2 .box-3{
-        width: 500px;
+        width: 470px;
         padding: 50px;
     }
     /* deals and discount section style */
     .box, .box-middle{
+        background-position: center;
         flex-direction: column;
         width: 570px;
-        height: 700px;
-        /* background-size: ; */
+        height: 480px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .primary-container, .primary-container-middle{     
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 70px;
+        left: 30px;
+        padding: 0px 50px 50px 50px;
+    }
+    .box-one-2 img {
+        width: 28px;
+        height: 72px;
+    }
+    .box-one-1, .box-one-2, .box-one-3{
+        width: 120px;
+    }
+    /* simple perfect place styles */
+    .simple-perfect-place{
+        width: 570px;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .box-i{
+        padding: 40px;
+    }
+    .simple-perfect-place .box-ii{
+        width: 570px;
+        background-position: center;
+        border-radius: 16px;
+        margin-left: 0px;
     }
 
+    /* newsletter section styles */
+    .newsletter{
+        width: 570px;
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 20px;
+    }
+    .box-I{
+        width: 370px;
+        margin-left: 60px;
+
+    }
+    .box-II{
+        width: 500px;
+        margin-left: 30px;
+    }
+    .box-II-small{
+        width: 324px;
+        left: 170px;
+        top: 230px;
+    }
+    /* footer section styles */
+
+    
 }
